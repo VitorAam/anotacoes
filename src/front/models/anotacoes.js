@@ -11,6 +11,3 @@ class Anotacoes{
         }
     }
 }
-
-let teste1 = new Anotacoes("teste", "opa")
-let teste2 = new Anotacoes(5, 'opa')
