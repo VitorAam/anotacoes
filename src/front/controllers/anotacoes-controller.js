@@ -9,12 +9,11 @@ class AnotacoesController {
         anotView.renderizaAnotacao(nota)
         console.log(this.arrayAnotacoes)
     }
-}
+};
 
-let anotacoesUser = new AnotacoesController()
+let anotacoesUser = new AnotacoesController();
 
 $('#btn_action').click(function(event){
     event.preventDefault();
     anotacoesUser.addAnotacao()
-    
-})
+});
